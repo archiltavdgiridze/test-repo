@@ -1,0 +1,161 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: rgb(253, 187, 45);
+  background: linear-gradient(0deg, rgba(253, 187, 45, 1) 0%, rgba(34, 193, 195, 1) 50%, rgba(253, 187, 45, 1) 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.head_sect_1,
+.head_sect_2,
+.main_sect_1 {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.head_sect_1 h1,
+.head_sect_2 h2 {
+  color: #fff;
+  font-family: "calibri",
+    sans-serif;
+}
+
+.head_sect_1 h1 {
+  width: 750px;
+  font-size: 4.5rem;
+}
+
+.head_sect_2 {
+  display: flex;
+  align-items: flex-start;
+}
+
+.head_sect_2 h2 {
+  width: 550px;
+  font-size: 3rem;
+}
+
+.sect_2_details {
+  margin: 150px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.details_1,
+.details_2 {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.details_cube {
+  width: 50px;
+  height: 50px;
+  background-color: #fff;
+}
+
+.details_text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.details_text p {
+  color: #fff;
+  font-family: "calibri", sans-serif;
+  font-weight: 600;
+  margin: 0;
+  line-height: 20px;
+  font-size: 1rem;
+}
+
+
+.details_btn {
+  width: 162px;
+  height: 45px;
+  border-radius: 0;
+  border: none;
+  font-family: "calibri", sans-serif;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 1rem;
+}
+
+
+.about_nick {
+  background-color: #f1c50e;
+  width: 420px;
+  height: auto;
+  display: flex;
+  gap: 30px;
+  padding: 20px 10px;
+  margin: 0 40px 0 auto;
+}
+
+.img_nick_larson {
+  width: 160px;
+  height: 160px;
+  border-radius: 100%;
+  object-fit: cover;
+}
+
+.nick_text_div h4 {
+  padding-left: 20px;
+}
+
+/* main sect */
+
+.main_sect_1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.main_sect_1_details {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: ; */
+  gap: 40px;
+}
+
+.persons_bio,
+.person_photo,
+.person_name {
+  width: 33%;
+}
+
+.persons_bio {
+  padding: 0 60px 0 30px;
+}
+
+.person_photo img {
+  width: 240px;
+  height: 240px;
+  border-radius: 100%;
+  object-fit: cover;
+}
+
+.person_name {
+  background-color: lightgray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main_sect_1_btn {
+  display: flex;
+  justify-content: center;
+}
+
+.main_sect_1_btn button {
+  width: 170px;
+  height: 50px;
+  background-color: orange;
+  text-transform: uppercase;
+}
